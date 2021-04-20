@@ -3,13 +3,16 @@ package javaBeginning;
 
 
 public class BreakContinue {
-    public static void main(String [] args){
+    public static void main(String[] args) {
+        
+        System.out.println("Dibraj Sarkar");
+        System.out.println("I'm from Bangladesh");
 //    int i;
 //    for(i=1;i<=100;i++){
 //        if(i==10){
 //            break;
 //        }
-//        System.out.println(i);
+//        System.'.println(i);
 //    }
 
 //    int x;

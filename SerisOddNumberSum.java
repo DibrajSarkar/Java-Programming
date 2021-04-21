@@ -10,7 +10,7 @@ public class SerisOddNumberSum {
         int n,sum=0;
         System.out.println("Enter last Number: ");
         n=input.nextInt();
-        for (int i = 1; i < 10; i+=2) {
+        for (int i = 1; i <=n; i+=2) {
             System.out.println(i+" ");
             sum+=i;
         }

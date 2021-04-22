@@ -8,10 +8,13 @@ public class SeriesMultiple {
        int sum=0;
         System.out.println("Enter inital number: ");
         n=input.nextInt();
-        
-        for (int i = ;n i<=m; i++) {
+        System.out.println("Enter Last Number: ");
+        m=input.nextInt();
+       
+        for (int i = n;i<=m; i++) {
             System.out.println(i+" ");
-            
+            sum*=i; 
         }
+        System.out.println("Sum of Multiple :"+sum);
     }
 }

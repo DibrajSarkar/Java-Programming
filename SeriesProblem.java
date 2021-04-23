@@ -8,6 +8,14 @@ public class SeriesProblem {
         Scanner input=new Scanner(System.in);
         double num,result=1;
         System.out.println("Enter last number: ");
+        
         num=input.nextDouble();
+        
+        for (double  i =  num; i<=10; i++) {
+            System.out.println(i+" ");
+            result*=i;
+        }
+        
+        System.out.println("Result : " +result);
     }
 }

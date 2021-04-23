@@ -5,7 +5,7 @@ public class SeriesMultiple {
     public static void main(String[] args) {
         Scanner input=new Scanner (System.in);
        int n,m;
-       int sum=0;
+       int sum=1;
         System.out.println("Enter inital number: ");
         n=input.nextInt();
         System.out.println("Enter Last Number: ");

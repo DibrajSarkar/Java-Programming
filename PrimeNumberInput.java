@@ -29,6 +29,7 @@ public class PrimeNumberInput {
                 count=0;
             
         }
+         System.out.println("");
         System.out.println("TotalPrime: "+TotalPrime);
     
     }

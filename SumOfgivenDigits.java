@@ -14,7 +14,10 @@ public class SumOfgivenDigits {
         
         while(temp!=0)
         {
-        
+            r=temp%10;
+            sum+=r;
+            temp=temp/10;
         }
+        System.out.println("Sum of Digit: "+sum);
     }
 }

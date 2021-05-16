@@ -15,6 +15,16 @@ public class PalindromeNumber {
         {
            remainder=temp%10;
            sum=sum*10+remainder;
+           temp=temp/10;
+        }
+        if(num==sum){
+           System.out.println("This is a palindrome Number");
+        }
+        else
+        {
+            System.out.println("This is Not a palindrome Number");
+        }
+        
         }
     }
-}
+

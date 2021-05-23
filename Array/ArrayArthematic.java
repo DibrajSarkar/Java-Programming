@@ -21,7 +21,11 @@ public class ArrayArthematic {
             number[i]=input.nextDouble();
         }
         
-        sum=number[0]+number[1]+number[2]+number[3]+number[4];
+        //sum=number[0]+number[1]+number[2]+number[3]+number[4];
+        // Same Work Using Loop 
+        for (int i = 0; i < 5; i++) {
+            sum=sum+number[i];
+        }
         System.out.println("Sum of Five Number: "+sum);
     }
 }

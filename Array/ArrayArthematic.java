@@ -17,15 +17,18 @@ public class ArrayArthematic {
             number[4]=input.nextDouble();
 */
            // Same Work using Loop 
-           for (int i = 0; i <5; i++) {
+           for (int i = 0; i <number.length; i++) {
             number[i]=input.nextDouble();
         }
         
         //sum=number[0]+number[1]+number[2]+number[3]+number[4];
         // Same Work Using Loop 
-        for (int i = 0; i < 5; i++) {
-            sum=sum+number[i];//0+1=1,1+2=3,3+3=6,6+4=10,10+5=15;
+        for (int i = 0; i < number.length; i++) {
+            sum=sum+number[i];//sum=0+1=1,1+2=3,3+3=6,6+4=10,10+5=15;
         }
         System.out.println("Sum of Five Number: "+sum);
+        double avg=sum/number.length;
+        
+        System.out.println("Average is : "+avg);
     }
 }

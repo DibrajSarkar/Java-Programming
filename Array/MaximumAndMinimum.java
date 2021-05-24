@@ -20,5 +20,14 @@ public class MaximumAndMinimum {
             }
         }
         System.out.println("Maximum Number: "+max);
+        
+        int min=number[0];
+        for (int j = 1; j <number.length; j++) {
+            if (min>number[j]) {
+                min=number[j];
+            }
+        }
+        
+        System.out.println("Minumum Number: " +min);
     }
 }

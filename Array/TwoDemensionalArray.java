@@ -12,10 +12,13 @@ public class TwoDemensionalArray {
         num[1][1]=15;
         num[1][2]=16;
         
+        System.out.println("Print Value like Matrix: ");
         for (int row = 0; row < 2; row++) {
             for (int col = 0; col < 3; col++) {
-                System.out.println(" "+num[row] [col]);
+                System.out.print(" "+num[row] [col]);
+                
             }
+            System.out.println(" ");
         }
         //System.out.println(num[0][2]);
     }

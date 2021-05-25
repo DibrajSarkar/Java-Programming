@@ -2,25 +2,23 @@ package javaBeginning.Array;
 
 import java.util.Scanner;
 
-public class MatrixInArray {
+public class AdditionOfMatrix {
 
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
-
         int[][] A = new int[2][3];
         int[][] B = new int[2][3];
+        // Getting Value of A Matrix
+        System.out.println("Enter the elements of A Matrix : ");
 
-        System.out.println("Enter six of A Matrix: ");
-        // Getting input for A Matrix
         for (int row = 0; row < 2; row++) {
             for (int col = 0; col < 3; col++) {
                 System.out.printf("A[%d] [%d] =", row, col);
                 A[row][col] = input.nextInt();
             }
         }
-        // Getting input for B Matrix
-        System.out.println("Enter six value for B Matrix: ");
+        // Getting Input value for B Matrix
+        System.out.println("Enter the elements of B Matrix: ");
 
         for (int row = 0; row < 2; row++) {
             for (int col = 0; col < 3; col++) {
@@ -28,22 +26,23 @@ public class MatrixInArray {
                 B[row][col] = input.nextInt();
             }
         }
-        //Printing A Matrix 
-        System.out.print("A : ");
+      
+        // Printing value of A Matrix
+        System.out.println("A : ");
         for (int row = 0; row < 2; row++) {
             for (int col = 0; col < 3; col++) {
-                System.out.print("\t" + A[row][col]); 
+
+                System.out.print("\t" + A[row][col]);
             }
         }
-        System.out.println(" ");
-        //Printing B Matrix
-
-        System.out.print("B : ");
+          System.out.println("");
+        // printing Value of B Matrix
+        System.out.println("B : ");
         for (int row = 0; row < 2; row++) {
             for (int col = 0; col < 3; col++) {
+               
                 System.out.print("\t" + B[row][col]);
             }
         }
-        System.out.println(" ");
     }
 }

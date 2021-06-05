@@ -1,11 +1,12 @@
 
 package javaBeginning.Array;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+
 
 public class ArrayListFirst {
     public static void main(String[] args) {
-        Scanner input =new Scanner (System.in);
-        int [] [] numbers =new int[3][4];
+        ArrayList<Integer> number = new ArrayList<>();
+        System.out.println("Size = "+number.size());
     }
 }

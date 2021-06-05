@@ -10,6 +10,8 @@ public class AdditionOfMatrix {
         int[][] B = new int[2][3];
         // Getting Value of A Matrix
         System.out.println("Enter the elements of A Matrix : ");
+        System.out.println(2 << 4);
+        System.out.println(2<<3);
 
         for (int row = 0; row < 2; row++) {
             for (int col = 0; col < 3; col++) {

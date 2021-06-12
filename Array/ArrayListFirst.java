@@ -18,9 +18,13 @@ public class ArrayListFirst {
         number.add(13);
         number.add(4,40);
         
-        for(int x: number){
-            System.out.print(" "+x);
+        Iterator itr =number.iterator();
+        while(itr.hasNext()){
         }
+//        for(int x: number){
+//            System.out.print(" "+x);
+//        }
+
         System.out.println( );
         System.out.println(number);
         

@@ -21,9 +21,13 @@ public class ArrayListFirst {
         for(int x: number){
             System.out.print(" "+x);
         }
+       
         System.out.println( );
-        System.out.println(number);
+        System.out.println("Array Contrains: "+number);
         
+          // Removing Elements 
+          number.remove(2);
+          System.out.println(" Array Contains: "+number);
           
     }
 }

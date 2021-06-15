@@ -2,6 +2,7 @@
 package javaBeginning.Array;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 
 public class ArrayListFirst {
@@ -20,6 +21,7 @@ public class ArrayListFirst {
         
         Iterator itr =number.iterator();
         while(itr.hasNext()){
+            System.out.print(" "+itr.next());
         }
 //        for(int x: number){
 //            System.out.print(" "+x);

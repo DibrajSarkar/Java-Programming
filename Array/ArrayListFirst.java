@@ -27,7 +27,11 @@ public class ArrayListFirst {
         
           // Removing Elements 
           number.remove(2);
-          System.out.println(" Array Contains: "+number);
+          System.out.println(" After Removing : Array Contains: "+number);
+          number.removeAll(number);
+          
+          // Removing All Elements from array
+          System.out.println(number);
           
     }
 }

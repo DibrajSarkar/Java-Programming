@@ -15,7 +15,9 @@ public class ArrayListPra {
         System.out.println(" ArrayList Contains: "+number);
         System.out.println(" ");
         System.out.println("Size : "+number.size());
-        number.clear();
-        System.out.println("After Clear ArrayList Contains: "+number);
+//        number.clear();
+//        System.out.println("After Clear ArrayList Contains: "+number);
+      boolean is =number.isEmpty();
+        System.out.println("Is it Empty or not: "+is);
     }
 }

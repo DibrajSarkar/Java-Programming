@@ -11,6 +11,18 @@ class Hello {
         System.out.println(11+45);
 
         System.out.println(num1-num2);
+        // double 
+        double dou = 13e10;
+        System.out.println(dou);
+
+        // character 
+        char c ='a';
+        c++;
+        System.out.println(c);
+
+        // boolean 
+        boolean a = true;
+        System.out.println(a);
     }
 }
 /**

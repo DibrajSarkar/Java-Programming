@@ -7,7 +7,8 @@ public class comparsion {
         // ==(double equal to equal or not)
         // logical operators
         // AND-&& , OR -|| , NOT ->!
-        
+
         System.out.println(result);
+        
     }
 }
